@@ -1,24 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-	  <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title> Papai </title>
-		<link rel="stylesheet" href="css/estilo.css">
+    <title>Devlinks de Herik</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Tarcísio Clever Porto</h1>
-    <p>Querido papai... 
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/Avatar.png"
+          alt="Foto de Herik Willian, usando boné e camisa preta, bigode, cavanhaque e fundo marrom"
 
-      que bom é chegar nessa hora e saber que você está ao meu lado ... 
+          src="./assets/Avatar-light.png"
+        />
+        <p>Herik Willian</p>
+      </div>
 
-      Você é o melhor pai do mundo... 
+      <div id="switch" onclick="toggleMode()">
+        <button>
+        </button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="https://instagram.com/hwillian_11" target="_blank"
+          >Conheça meu Instagram</a>
+        </li>
 
-      Me dá 50 conto preu comprar de fralda pq a coisa tá feia!!
+        <li>
+          <a href="https://www.linkedin.com/in/herik-willian-a96b19303/" target="_blank"
+          >Veja meu Linkedin</a>
+        </li>
 
-      Bjos!
-    </p>
-		<br>
-		<p>Assinado: Arthur Faria Porto</p>
+        <li>
+          <a href="https://www.youtube.com/watch?v=TQ5DUv_ZwRg" target="_blank"
+          >Escute uma música filé no YT</a>
+        </li>
+
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Conheça a Rocketseat</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/HerikWillian" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://instagram.com/hwillian_11" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://youtube.com/@herikwillian72" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/herik-willian-a96b19303/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com ♥ por
+        <a href="https://instagram.com/hwillian_11">Herik Willian</a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
